@@ -7,6 +7,11 @@
     "build": "gridsome build"
   },
   "dependencies": {
+    "@gridsome/remark-prismjs": "^0.5.0",
+    "@gridsome/source-filesystem": "^0.6.2",
     "gridsome": "^0.7.0"
+  },
+  "devDependencies": {
+    "@gridsome/transformer-remark": "^0.6.4"
   }
 }
